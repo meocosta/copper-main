@@ -62,9 +62,8 @@
 
 	@media (max-aspect-ratio: 0.63) {
 		button {
-			height: 12vw;
-			width: 15vw;
-			border-radius: 16px;
+			height: 5vh;
+			width: 5vh;
 		}
 	}
 </style>

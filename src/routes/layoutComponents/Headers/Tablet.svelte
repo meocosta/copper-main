@@ -18,9 +18,6 @@
 				<a href={t.href}>
 					<button class:ativo={abaAtual === (t.href === '/' ? 'home' : t.href.slice(1))}>
 						<svelte:component this={t.icon} class="icone" />
-						{#if abaAtual === (t.href === '/' ? 'home' : t.href.slice(1))}
-							<p>{t.titulo}</p>
-						{/if}
 					</button>
 				</a>
 			{/each}
@@ -114,7 +111,7 @@
 			background-color: none;
 
 			header {
-				color: b.$ice-l;
+				color: b.$ice-d;
 			}
 
 			nav {
@@ -123,13 +120,15 @@
 					background-color: b.$ice-l;
 
 					:global(svg) {
-						stroke: white;
+						stroke: b.$ice-d;
 					}
 				}
 
 				.ativo {
 					background-color: b.$navy-l;
-					color: white;
+					:global(svg) {
+						stroke: white;
+					}
 				}
 			}
 		}

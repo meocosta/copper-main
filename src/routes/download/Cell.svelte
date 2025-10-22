@@ -103,7 +103,7 @@
 	}
 
 	#downSection {
-		margin-top: 10vh;
+		margin-top: 8vh;
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
@@ -119,6 +119,7 @@
             gap: 16px;
 
 			.op {
+				width: 100%;
 				transition: all 0.5s ease-in-out;
 				border-radius: 16px;
 				display: flex;

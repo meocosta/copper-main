@@ -71,9 +71,11 @@
 			padding: 8px;
 			color: b.$teal-l;
 			@include b.fr(4.5vw, 400);
+			height: 10vh;
 
 			.pointer{
-				width: 50vw;
+				height: 7vh;
+				gap: 16px;
 				display: flex;
 				justify-content: space-around;
 				align-items: center;

@@ -30,10 +30,10 @@
 	}
 </script>
 
-{#if $razao < 0.63}
+{#if $razao <= 0.6}
 	<Cellphone {aba} {abaAtual} />
 {/if}
-{#if $razao > 0.63 && $razao < 1}
+{#if $razao > 0.6 && $razao < 1}
 	<Tablet {aba} {abaAtual} />
 {/if}
 {#if $razao > 1}
