@@ -1,0 +1,208 @@
+{
+  "layout": {
+    "faixa": "Bem-vindo ao mundo Copper! Chega mais, fica à vontade. Quer facilidade e velocidade? É Copper, sem dúvida!",
+    "nav": {
+      "home": "Inicial",
+      "sobre": "Sobre",
+      "documentos": "Documentos",
+      "playground": "Playground",
+      "down": "Download"
+    }
+  },
+  "home": {
+    "intro": {
+      "titulo": "Código mais <span>rápido</span>.<br/> Modelos mais <span>inteligentes</span>.",
+      "subtitulo": "Transforme ideias complexas em soluções brilhantes.",
+      "botoes": {
+        "teste": "teste e comprove",
+        "start": "comece agora!"
+      }
+    },
+    "carrosel": {
+      "quantidade": "3",
+      "conteudo1": {
+        "nome": "Desempenho e Eficiência",
+        "txt": "Capaz de realizar operações de IA de maneira rápida e eficiente. Seu código transpilado em <span>Rust</span> garante a execução de modelos de aprendizado de máquina otimizados"
+      },
+      "conteudo2": {
+        "nome": "Simplicidade",
+        "txt": "A linguagem Copper é fácil de aprender e de se utilizar, com uma sintaxe intuitiva, inspirada em <span>Python</span>, <span>Golang</span>, <span>Swift</span>. O que permite que desenvolvedores iniciantes em IA possam utiliza-la rapidamente!"
+      },
+      "conteudo3": {
+        "nome": "Integração com diversos formatos",
+        "txt": "O Copper oferece suporte nativo a diferentes formatos de dados, incluindo <span>JSON, TOML e XML</span>, facilitando a integração e a manipulação de informações de maneira prática e eficiente."
+      }
+    },
+    "cards": {
+      "titulo": "Pense fora da caixa, o <span>Copper</span> faz o resto",
+      "subtitulo": "Onde mentes criativas encontram ferramentas revolucionárias",
+      "quantidade": "3",
+      "conteudo1": {
+        "nome": "InteliSense",
+        "txt": "Use o Copper no VSCode! Nossa extensão InteliSense oferece autocomplete, destaque de sintaxe e documentação inline."
+      },
+      "conteudo2": {
+        "nome": "Bibliotecas",
+        "txt": "O Copper funciona com bibliotecas de IA como libtorch e TensorFlow, permitindo treinar redes neurais e rodar inferências de forma eficiente, com alto desempenho e uso otimizado de memória."
+      },
+      "conteudo3": {
+        "nome": "Transpilador",
+        "txt": "O transpilador converte código Copper direto para Rust, garantindo performance e segurança, com alta eficiência e simplicidade para o desenvolvedor."
+      }
+    },
+    "passo": {
+      "slogan": "simples como <br/><span>Python</span> <br/> rápido como <br/><span>Rust</span>",
+      "titulo": "Vamos começar!",
+      "quantidade": "3",
+      "passo1": {
+        "nome": "Baixe o projeto do github!",
+        "txt": "Baixe o projeto copper do nosso github, aquele é o template de todo projeto copper!"
+      },
+      "passo2": {
+        "nome": "Configure seu dispositivo",
+        "txt": "Configure o copper em sua variável de ambiente. Ah! Não se esqueca de baixar o Rust também!"
+      },
+      "passo3": {
+        "nome": "Solte sua criatividade em projetos",
+        "txt": "Tudo pronto! Agora é só utilizar a poderosa ferramenta copper em seus mais ousados projetos!"
+      }
+    }
+  },
+  "sobre": {
+    "sobreintro": {
+      "titulo": "Sobre o <span>COPPER</span>",
+      "subtitulo": "saiba mais sobre <span>sua linguagem favorita</span>"
+    },
+    "sobreporque": {
+      "porque": {
+        "titulo": "Por que usar o Copper?",
+        "paragrafos": {
+          "qttd": "2",
+          "pr1": "Cansado da complexidade do Rust, mas não quer abrir mão da sua performance?",
+          "pr2": "Com o Copper, você escreve código com uma sintaxe simples e intuitiva, parecida com Python, e deixa que o compilador cuide de transformar tudo em Rust de altíssimo desempenho."
+        }
+      },
+      "questoes": {
+        "titulo": "Questões frequentes",
+        "conteudo": {
+          "qttd": "3",
+          "faq1": {
+            "pergunta": "A Copper é multiplataforma?",
+            "resposta": "Sim. Você pode compilar seus programas Copper para Windows, Linux e macOS."
+          },
+          "faq2": {
+            "pergunta": "Para que tipo de projeto a Copper é indicada?",
+            "resposta": "A Copper é versátil: pode ser usada em sistemas de alto desempenho, desenvolvimento web, redes, compiladores, e até em aplicações educacionais por conta de sua sintaxe simples e intuitiva."
+          },
+          "faq3": {
+            "pergunta": "A Copper é fácil de aprender?",
+            "resposta": "Sim. A sintaxe da Copper foi pensada para ser acessível, especialmente para quem já conhece linguagens como Python, JavaScript ou Rust. O aprendizado é rápido e a curva de adaptação é suave."
+          }
+        }
+      }
+    },
+    "sobrevelocidade": {
+      "titulo": "<span>Velocidade e Simplicidade</span> que você precisa",
+      "paragrafos": {
+        "qttd": "3",
+        "pr1": "<span>Transpilação inteligente: </span>seu código em Copper é automaticamente convertido para Rust.",
+        "pr2": "<span>Performance real: </span>aproveite toda a segurança de memória e concorrência do Rust, sem precisar lidar com a sua curva de aprendizado.",
+        "pr3": "<span>Código limpo: </span>mais tempo construindo soluções, menos tempo brigando com a linguagem."
+      }
+    },
+    "sobremotor": {
+      "titulo": "O motor da sua próxima ideia!",
+      "paragrafos": {
+        "qttd": "3",
+        "pr1": "Copper nasceu para quem quer trabalhar com machine learning e aplicações de IA: Integração direta com libtorch (PyTorch em C++)",
+        "pr2": "Suporte a tarefas de classificação de imagens, reconhecimento de padrões e redes neurais convolucionais",
+        "pr3": "Projetado para desenvolvedores iniciantes e avançados que buscam produtividade sem abrir mão da performance"
+      }
+    },
+    "sobrelanguages": {
+      "titulo": "Engrenagens do Copper",
+      "linguagens": {
+        "t1": {
+          "id": "rs",
+          "nome": "Rust",
+          "descricao": "para velocidade e segurança"
+        },
+        "t2": {
+          "id": "cplus",
+          "nome": "C++",
+          "descricao": "para integração com bibliotecas de IA"
+        },
+        "t3": {
+          "id": "ts",
+          "nome": "TS",
+          "descricao": "para uma experiência de desenvolvimento flúida"
+        }
+      }
+    },
+    "sobretime": {
+      "titulo": "/* <br/> NOSSO TIME <br/> */"
+    },
+    "sobrecontato": {
+      "titulo": "nos contate",
+      "instagram": " ou pelo instagram @coppermind"
+    }
+  },
+  "erro": {
+    "titulo": "página indisponível",
+    "mensagem": "A Copper Foundation sente muito pelo inconveniente! Nos mande um feedback sobre o erro (como ocorreu, qual o retorno em seu console...). Estamos trabalhando para te oferecer a melhor experiência!",
+    "botao": "dar feedback"
+  },
+  "docs": {
+    "qttd": "4",
+    "doc1": {
+      "titulo": "Introdução",
+      "qttd": "10",
+      "prgf1": "<p>A inteligência artificial (IA), com tecnologias como <span>deep learning e redes neurais</span>, está transformando setores como saúde, finanças e mobilidade. Porém seu desenvolvimento ainda é <span>deficiente</span>, seu principal problema: escolher uma linguagem simples e eficiente. </p>",
+      "prgf2": "<blockquote>“Escolher a linguagem de programação adequada pode fazer a diferença no sucesso de um projeto de IA. Alguns aspectos a serem considerados são: Desempenho, Facilidade de uso, Escalabilidade, Eficiência” <cite>- (texto resumido) Pesquisa da Universidade Miguel Hernández</cite></blockquote>",
+      "prgf3": "<p>Nos dias atuais, temos como principais linguagens o Python, uma linguagem simples e muito ampla, porém <span>ineficiente</span> quando se fala de desempenho pois é uma linguagem interpretada. Além de ter <span>falhas de segurança de memória</span> que o Rust não apresenta como vazamentos de memória, acessos inválidos e outros erros comuns que podem ocorrer em linguagens como C++ e Python;</p>",
+      "prgf4": "<blockquote>“Python é uma linguagem interpretada e, como resultado, geralmente apresenta menor eficiência de recursos em comparação com linguagens compiladas. ...”<cite> -  Communications in Computer and Information Science ((CCIS,volume 2657))</cite></blockquote>",
+      "prgf5": "<p>Por outro lado temos Rust, com alto desempenho, porém uma <span>curva de aprendizado ampla</span>, por ser uma linguagem de baixo nível e uma necessidade de maior compreensão de questões técnicas como concorrência e paralelismo. </p>",
+      "prgf6": "<blockquote>“Rust apresenta uma curva de aprendizado mais acentuada devido ao seu foco em segurança e controle explícito.” <cite>- Universidad Miguel Hernández de Elche </cite> </blockquote>",
+      "prgf7": "<p>É nesse contexto que diversos programadores se encontram no grande penhasco: facilidade ou desempenho? E a atual resposta: <span>os dois!</span></p>",
+      "prgf8": "<p>O Copper vem com uma proposta diferente: <span>um híbrido.</span> Ter <span>facilidade e uma baixa curva de aprendizado</span>, mas ser rápido por ser uma linguagem transpilada. Nosso projeto visa <span>reduzir o tempo de desenvolvimento e abrir novos horizontes para a programação</span>. É quebrar o dilema e a preocupação do desenvolvedor. </p>",
+      "prgf9": "<p>É com a Copper que os desenvolvedores, <span>sem precisar conhecimento avançado</span> de linguagens complexas de baixo nível, vão poder explorar o mundo do desenvolvimento robusto, de machine learning e deep learning. Tornando a IA não mais um conceito, mas sim algo acessível e inclusivo.</p>",
+      "prgf10": "<p>Além de que, com uma baixa curva de aprendizado, os desenvolvedores irão ser mais produtivos, sem perder a segurança que o Rust oferece.</p>"
+    },
+    "doc2": {
+      "titulo": "Bibliotecas",
+      "qttd": "4",
+      "prgf1": "<p>A <span>biblioteca de IA da Copper</span> foi desenvolvida para unificar, em um único recurso, diversas ferramentas amplamente utilizadas no mercado. Isso facilita tanto o uso quanto a <span>implementação</span>, além de permitir o aproveitamento de modelos pré-treinados.</p>",
+      "prgf2": "<p>O <span>objetivo do Copper</span> é oferecer suporte direto a bibliotecas de IA como <span>TensorFlow e PyTorch</span>, possibilitando que desenvolvedores já familiarizados com essas poderosas ferramentas possam utilizá-las com praticidade e segurança. Dessa forma, reduz-se o <span>tempo de adaptação e aumenta-se a produtividade</span> no desenvolvimento de código.</p>",
+      "prgf3": "<p>Mas como essa integração funciona? O processo é realizado por meio de <span>bindings</span>, que conectam funções, classes e tipos de uma linguagem a outra, reunindo tudo em uma única biblioteca. Para isso, são utilizados arquivos de extensão (como <span>.dll, .lib, .vcxproj…</span>), responsáveis por fornecer acesso às bibliotecas externas.</p>",
+      "prgf4": "<p>Com esse mecanismo, nossa biblioteca pode <span>referenciar métodos específicos</span> voltados ao treinamento e à modelagem de IA. Ao longo do tempo, ela será expandida para suportar ainda mais tipos de inputs, tornando-se cada vez mais completa e flexível.</p>"
+    },
+    "doc3": {
+      "titulo": "Transpilação",
+      "qttd": "10",
+      "prgf1": "<p>A Copper funciona por meio de um processo de transpilação, que converte o código escrito pelo usuário em Rust. Esse processo acontece em etapas:</p>",
+      "prgf2": "<ol>\n<li><span>Tokenizer</span> – lê exatamente o que foi digitado. Por exemplo, se você escrever ==, ele interpreta como equal equal, ou seja, descreve literalmente o que foi digitado.</li>\n\n<li><span>Lexer</span> – organiza os símbolos em blocos (chunks) e também contabiliza em qual linha cada instrução foi escrita.</li>\n\n<li><span>Parser</span> – recebe os tokens organizados pelo lexer e traduz o código Copper para Rust.</li>\n\n<li><span>Armazenamento</span> – o código Rust gerado é salvo em uma pasta configurada para ser executado posteriormente.</li></ol>",
+      "prgf3": "<h2>Etapas de desenvolvimento</h2>",
+      "prgf4": "<p>O desenvolvimento da Copper começou pelo arquivo <span>properties.kson</span>, que funciona como artigo de configuração da linguagem.</p>",
+      "prgf5": "<p>Na sequência, foi criado o <span>lexer</span>, responsável por identificar os tokens necessários ao tokenizer. Depois, desenvolvemos o <span>tokenizer</span> e, por último, o <span>parser</span>.</p>",
+      "prgf6": "<p>As classes da linguagem estão sendo implementadas gradualmente, conforme surgem novas funcionalidades e correções de bugs.</p>",
+      "prgf7": "<h2>Por que ser transpilada?</h2>",
+      "prgf8": "<p>A <span>transpilação</span> é o que torna a Copper inovadora. Mas o que isso significa?</p>",
+      "prgf9": "<p>Transpilar é o processo de “traduzir” um código escrito em uma linguagem de alto nível (Copper) para uma linguagem de baixo nível (Rust).</p>",
+      "prgf10": "<p> Isso garante que a Copper mantenha o desempenho e a rapidez do Rust, diferentemente de linguagens interpretadas, como Python, que executam cada instrução linha por linha.</p>"
+    },
+    "doc4": {
+      "titulo": "Apoie o projeto",
+      "qttd": "6",
+      "prgf1": "<p>Vê potencial e quer investir no nosso projeto? Contate-nos pelo nosso email:</p>",
+      "prgf2": "<h4>saccopper@gmail.com</h4>",
+      "prgf3": "<p>Gostou do nosso projeto não consegue investir grandes quantias? Qualquer ajuda é muito bem vinda</p>",
+      "prgf4": "<div id='copiarchave'><img id=\"imgallmight\" src=\"https://www.pngmart.com/files/21/All-Might-PNG-Photo.png\" alt=\"O Brian é gay\" /><div id='txtchave'><p>Apoie o projeto! Seja nosso herói!</p></div></div>",
+      "prgf5": "<p>Você pode nos ajudar também seguindo nosso projeto nas redes sociais e indicando para seus amigos!</p>",
+      "prgf6": "<blockquote>@coppermind</blockquote>"
+    }
+  },
+  "down":{
+    "titulo": "Hora de voar!",
+    "erro": "Não conseguiu fazer o download? Tudo bem, baixe direto pelo nosso repositório do github! Ah e não esquece, nos mande sua expêriencia conosco pelo email saccopper@gmail.com"
+  }
+}

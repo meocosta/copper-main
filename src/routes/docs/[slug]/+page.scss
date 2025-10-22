@@ -1,0 +1,231 @@
+@use "$lib/styles/Basics.scss" as b;
+
+.conteudo {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+
+    blockquote {
+        @include b.mor();
+        border-radius: none;
+        color: b.$teal-l;
+    }
+
+    h1,
+    h2 {
+        color: b.$ice-d;
+    }
+
+    p,
+    li {
+        color: b.$ice-d;
+    }
+
+    span {
+        color: b.$blue-l;
+    }
+
+    h4 {
+        color: b.$teal-l;
+    }
+
+    #copiarchave {
+
+        button{
+            box-shadow: 0px 0px 0px b.$blue-l;
+            background-color: b.$blue-l;
+            color: white;
+            border: 2px solid white;
+        }
+
+        button:hover{
+            box-shadow: 0px 10px 30px b.$blue-l;
+            background-color: b.$ice-d;
+        }
+    }
+}
+
+.dark {
+    .conteudo {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+
+        blockquote {
+            @include b.mor();
+            border-radius: none;
+            color: b.$ice-d;
+        }
+
+        h1,
+        h2 {
+            color: b.$ice-l;
+        }
+
+        p,
+        li {
+            color: b.$ice-l;
+        }
+
+        span {
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.tablet {
+    padding: 32px;
+
+    gap: 24px;
+
+    blockquote {
+        @include b.fr(5vw, 600);
+        margin-bottom: 32px;
+        padding: 32px;
+    }
+
+    h1 {
+        @include b.fr(12vw, 600)
+    }
+
+    h2 {
+        @include b.fr(8vw, 600)
+    }
+
+    p, span, li {
+        @include b.ls(5vw)
+    }
+
+    li {
+        margin-left: 10vw;
+        margin-bottom: 32px;
+        line-height: 120%;
+    }
+
+    p {
+        margin-bottom: 32px;
+        text-indent: 32px;
+        line-height: 120%;
+    }
+}
+
+.celular {
+    padding: 32px;
+    gap: 16px;
+
+    blockquote {
+        @include b.fr(6vw, 600);
+        margin-bottom: 32px;
+        padding: 32px;
+    }
+
+    h1 {
+        @include b.fr(12vw, 600)
+    }
+
+    h2 {
+        @include b.fr(10vw, 600)
+    }
+
+    p, span, li {
+        @include b.ls(7vw)
+    }
+
+    li {
+        margin-left: 10vw;
+        margin-bottom: 16px;
+        line-height: 120%;
+    }
+
+    p {
+        margin-bottom: 16px;
+        text-indent: 32px;
+        line-height: 120%;
+    }
+}
+
+.computador {
+    padding: 32px;
+
+    gap: 24px;
+
+    blockquote {
+        @include b.fr(2vw, 600);
+        margin-bottom: 32px;
+        padding: 32px;
+    }
+
+    h1 {
+        @include b.fr(7vw, 600)
+    }
+
+    h2 {
+        @include b.fr(4vw, 600)
+    }
+
+    p, span, li {
+        @include b.ls(2vw)
+    }
+
+    li {
+        margin-left: 5vw;
+        line-height: 120%;
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 24px;
+        text-indent: 32px;
+        line-height: 120%;
+    }
+
+    h4 {
+        @include b.fr(5vw, 600);
+        text-align: center;
+    }
+
+    #copiarchave {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        #imgallmight {
+            width: 30vw;
+        }
+
+        #txtchave {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 24px;
+            align-items: center;
+
+            p {
+                @include b.ls(5vw);
+                text-align: end;
+            }
+
+            button{
+                width: 20vw;
+                height: 10vh;
+                @include b.ls(2vw);
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                gap: 16px;
+                border-radius: 16px;
+                transition: all 0.5s ease-in-out;
+
+                img{
+                    height: 7vh;
+                }
+            }
+
+            button:hover{
+                transform: translateY(-10px) scale(1.2);
+            }
+        }
+    }
+}

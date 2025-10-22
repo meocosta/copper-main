@@ -1,0 +1,237 @@
+@use "$lib/styles/Basics.scss" as b;
+
+section {
+    height: fit-content;
+    width: 100%;
+}
+
+#sobre {
+    cursor: default;
+
+    section {
+        display: flex;
+    }
+
+    #sobreIntro {
+        h1 {
+            color: b.$navy-d;
+
+            span {
+                color: b.$teal-l;
+            }
+        }
+
+        h2 {
+            color: b.$navy-d;
+
+            span {
+                color: b.$teal-l;
+            }
+        }
+    }
+
+    #sobrePorque {
+        #porque {
+            background-color: white;
+
+            h2 {
+                color: b.$teal-l;
+            }
+
+            p {
+                color: b.$teal-l;
+            }
+        }
+
+        #questoes {
+            background-color: b.$ice-d;
+
+            h2 {
+                color: white;
+            }
+
+            div {
+                color: b.$ice-d;
+
+                details {
+                    background: b.$teal-d;
+                }
+            }
+        }
+    }
+
+    #sobreVelocidade {
+        h2 {
+            color: b.$navy-l;
+
+            span {
+                color: b.$ice-d;
+            }
+        }
+
+        p {
+            color: b.$teal-l;
+
+            span {
+                color: b.$ice-d;
+            }
+        }
+    }
+
+    #sobreMotor {
+        color: b.$teal-l;
+        background-color: white;
+    }
+
+    #sobrelanguages {
+        #titulo {
+            color: white;
+            background-color: b.$teal-l;
+        }
+
+        #rs {
+            color: b.$teal-l;
+            background-color: white;
+        }
+
+        #cplus {
+            background-color: b.$ice-l;
+            color: b.$teal-l;
+        }
+
+        #ts {
+            color: white;
+            background-color: b.$blue-l;
+        }
+    }
+
+    #sobreTime {
+        h2 {
+            color: b.$ice-d
+        }
+
+        p {
+            color: b.$blue-l
+        }
+    }
+
+    #sobreContato {
+        h2 {
+            color: b.$ice-d
+        }
+
+        h3 {
+            color: b.$blue-l
+        }
+    }
+}
+
+.dark {
+    #sobre {
+        cursor: default;
+
+        #sobreIntro {
+
+            h1,
+            h2 {
+                color: b.$navy-d;
+
+                span {
+                    color: white;
+                }
+            }
+        }
+
+        #sobrePorque {
+            #porque {
+                background-color: b.$blue-d;
+
+                h2, p {
+                    color: white;
+                }
+            }
+
+            #questoes {
+                background-color: b.$teal-d;
+
+                h2 {
+                    color: b.$ice-d;
+                }
+
+                div {
+                    color: b.$teal-d;
+
+                    details {
+                        background: b.$ice-d;
+                    }
+                }
+            }
+        }
+
+        #sobreVelocidade {
+            h2 {
+                color: b.$navy-d;
+
+                span {
+                    color: white;
+                }
+            }
+
+            p {
+                color: white;
+
+                span {
+                    color: b.$ice-l;
+                }
+            }
+        }
+
+        #sobreMotor {
+            color: b.$ice-d;
+            background-color: white;
+        }
+
+        #sobrelanguages {
+            #titulo {
+                color: b.$ice-l;
+                background-color: b.$teal-l;
+            }
+
+            #rs {
+                color: b.$teal-l;
+                background-color: b.$ice-l;
+            }
+
+            #cplus {
+                background-color: b.$navy-l;
+                color: white;
+            }
+
+            #ts {
+                color: b.$ice-l;
+                background-color: b.$blue-l;
+            }
+        }
+
+        #sobreTime {
+            h2 {
+                color: white;
+            }
+
+            p {
+                color: b.$teal-d
+            }
+        }
+
+        #sobreContato {
+            h2 {
+                color: white
+            }
+
+            h3 {
+                color: b.$teal-l
+            }
+        }
+    }
+
+}

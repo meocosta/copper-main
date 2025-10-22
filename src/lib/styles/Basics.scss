@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+// Light mode
+$blue-l: #4F6D7A;
+$sky-l: #C0D6DF;
+$ice-l: #DBE9EE;
+$navy-l: #4A6FA5;
+$teal-l: #166088;
+
+// Dark mode
+$blue-d: #13315C;
+$sky-d: #134074;
+$ice-d: #0b2545;
+$navy-d: #8DA9C4;
+$teal-d: #EEF4ED;
+
+@mixin ls($size, $width: 400) {
+  font-family: "League Spartan", serif;
+  font-optical-sizing: auto;
+  font-weight: $width;
+  font-style: normal;
+  font-size: $size;
+}
+
+@mixin fr ($size, $weigth : 300) {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: $weigth;
+  font-style: normal;
+  font-size: $size;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+@mixin mor ($transparenci : 0.50, $blur: 7.9px) {
+  background: rgba(255, 255, 255, $transparenci);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur($blur);
+  -webkit-backdrop-filter: blur(7.9px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

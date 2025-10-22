@@ -1,0 +1,71 @@
+@use "$lib/styles/Basics.scss" as b;
+
+#IntroHome {
+    h2 {
+        color: b.$navy-l;
+
+        span {
+            color: b.$teal-l;
+        }
+    }
+
+    h3 {
+        color: b.$navy-l;
+    }
+
+    #botoes {
+        #teste {
+            border: 4px b.$navy-l solid;
+            background-color: transparent;
+
+            a {
+                color: b.$navy-l;
+            }
+        }
+
+        #start {
+            background-color: b.$teal-l;
+
+            a {
+                color: white;
+            }
+
+            border: none;
+        }
+    }
+}
+
+.dark {
+    #IntroHome {
+        h2 {
+
+            color: b.$navy-d;
+
+            span {
+                color: white;
+            }
+        }
+
+        h3 {
+            color: b.$navy-d;
+        }
+
+        #botoes {
+            #teste {
+                border: 2px b.$navy-d solid;
+
+                a {
+                    color: b.$navy-d;
+                }
+            }
+
+            #start {
+                background-color: white;
+
+                a {
+                    color: b.$ice-d;
+                }
+            }
+        }
+    }
+}
