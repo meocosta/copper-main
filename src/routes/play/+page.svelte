@@ -264,4 +264,242 @@
 			margin-top: 0.5rem;
 		}
 	}
+
+	.cell {
+		margin-top: 7vh;
+		gap: 8px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: space-around;
+		height: 90vh;
+
+		h2{
+			@include b.ls(5vw)
+		}
+
+		h1 {
+			@include b.ls(15vw, 800);
+			align-items: center;
+			justify-content: center;
+			width: 100vw;
+			display: flex;
+			cursor: default;
+
+			span:hover {
+				transform: translateY(-10px);
+				transition: all 0.2s ease-in-out;
+				z-index: 0;
+			}
+		}
+
+		#code {
+			flex-direction: column;
+			display: flex;
+			justify-content: space-around;
+			width: 100vw;
+			padding: 16px;
+			gap: 24px;
+
+			div {
+				height: 25vh;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			#result {
+				border-radius: 20px;
+
+				p {
+					@include b.ls(7vw);
+				}
+
+				#resultadofinal {
+					padding: 16px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					overflow: scroll;
+					scrollbar-width: none;
+					-ms-overflow-style: none;
+					::-webkit-scrollbar {
+						display: none;
+					}
+				}
+			}
+		}
+
+		textarea {
+			width: 100%;
+			height: 100%;
+			background: #0d1117;
+			color: #c9d1d9;
+			border: 1px solid #30363d;
+			border-radius: 0px;
+			padding: 10px;
+			font-family: monospace;
+			font-size: 1rem;
+		}
+
+		button {
+			padding: 10px 20px;
+			border-radius: 16px;
+			cursor: pointer;
+			margin-top: 10px;
+			transition: 0.2s;
+			@include b.ls(5vw);
+		}
+
+		button:hover {
+			transform: translateY(-10px);
+		}
+
+		pre {
+			width: 80%;
+			text-align: left;
+			padding: 1rem;
+			border-radius: 8px;
+			font-family: monospace;
+			overflow-x: auto;
+		}
+
+		.logs {
+			background: #111;
+			color: #888;
+			font-size: 0.9rem;
+			margin-top: 1rem;
+		}
+
+		.saida {
+			background: #000;
+			color: b.$blue-l;
+			font-weight: bold;
+			font-size: 1rem;
+			margin-top: 0.5rem;
+		}
+	}
+
+	.tablet {
+		margin-top: 12vh;
+		gap: 8px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: space-around;
+		height: 90vh;
+
+		h2{
+			@include b.ls(5vw);
+			width: 90vw;
+			text-align: start;
+		}
+
+		h1 {
+			@include b.ls(15vw, 800);
+			align-items: center;
+			justify-content: center;
+			width: 100vw;
+			display: flex;
+			cursor: default;
+
+			span:hover {
+				transform: translateY(-10px);
+				transition: all 0.2s ease-in-out;
+				z-index: 0;
+			}
+		}
+
+		#code {
+			flex-direction: column;
+			display: flex;
+			justify-content: space-around;
+			width: 100vw;
+			padding: 16px;
+			gap: 24px;
+
+			div {
+				height: 25vh;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			#result {
+				border-radius: 20px;
+
+				p {
+					@include b.ls(7vw);
+				}
+
+				#resultadofinal {
+					padding: 16px;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					overflow: scroll;
+					scrollbar-width: none;
+					-ms-overflow-style: none;
+					::-webkit-scrollbar {
+						display: none;
+					}
+				}
+			}
+		}
+
+		textarea {
+			width: 100%;
+			height: 100%;
+			background: #0d1117;
+			color: #c9d1d9;
+			border: 1px solid #30363d;
+			border-radius: 0px;
+			padding: 10px;
+			font-family: monospace;
+			font-size: 1rem;
+		}
+
+		button {
+			padding: 10px 20px;
+			border-radius: 16px;
+			cursor: pointer;
+			margin-top: 10px;
+			transition: 0.2s;
+			@include b.ls(5vw);
+		}
+
+		button:hover {
+			transform: translateY(-10px);
+		}
+
+		pre {
+			width: 80%;
+			text-align: left;
+			padding: 1rem;
+			border-radius: 8px;
+			font-family: monospace;
+			overflow-x: auto;
+		}
+
+		.logs {
+			background: #111;
+			color: #888;
+			font-size: 0.9rem;
+			margin-top: 1rem;
+		}
+
+		.saida {
+			background: #000;
+			color: b.$blue-l;
+			font-weight: bold;
+			font-size: 1rem;
+			margin-top: 0.5rem;
+		}
+	}
 </style>
