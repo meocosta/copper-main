@@ -6,11 +6,24 @@
 
 	let trad: string = t('down.titulo');
 	let error: string = t('down.erro');
+	let passos = getPassos();
+	let passosTitulo = t('down.passo.titulo');
+
+	function getPassos(): Array<string> {
+		let passosArray: Array<string> = [];
+		let qttd = Number(t('down.passo.qttd'));
+		for (let i = 0; i < qttd; i++) {
+			passosArray.push(t('down.passo.passo' + (i + 1)));
+		}
+		return passosArray;
+	}
 
 	$: {
 		$lang;
 		trad = t('down.titulo');
 		error = t('down.erro');
+		passos = getPassos();
+		passosTitulo = t('down.passo.titulo');
 	}
 </script>
 
@@ -42,7 +55,16 @@
 	</div>
 
 	<h3>{error}</h3>
-	<a href="https://github.com/liy77/copper-lang">GitHub Repo</a>
+	<a href="https://github.com/liy77/copper-lang" target="_blank"><button>GITHUB REPO</button></a>
+
+	<div id="passoApassoGithub">
+		<h2>{passosTitulo}</h2>
+		<ol>
+			{#each passos as p}
+				<li>{p}</li>
+			{/each}
+		</ol>
+	</div>
 </section>
 
 <style lang="scss">
@@ -50,11 +72,20 @@
 
 	#downSection {
 		a {
-			color: b.$blue-l;
+			text-align: center;
 		}
 
-		a:hover {
+		a button {
+			color: b.$blue-l;
+			border: solid b.$blue-l 2px;
+			border-radius: 16px;
+			background-color: transparent;
+			padding: 16px;
+		}
+
+		a button:hover {
 			color: b.$navy-l;
+			border: solid b.$navy-l 2px;
 		}
 
 		h3 {
@@ -77,12 +108,24 @@
 		.op:hover {
 			background-color: b.$ice-d;
 		}
+
+		#passoApassoGithub {
+			h2 {
+				color: b.$ice-d;
+			}
+
+			ol li {
+				color: b.$teal-l;
+			}
+		}
 	}
 
 	:global(.dark) {
 		#downSection {
-			a {
+			a button {
 				color: b.$ice-l;
+				border: solid b.$ice-l 2px;
+				border-radius: 16px;
 			}
 
 			a:hover {
@@ -98,6 +141,16 @@
 			}
 			.op {
 				background-color: b.$blue-d;
+			}
+
+			#passoApassoGithub {
+				h2 {
+					color: b.$ice-l;
+				}
+
+				ol li {
+					color: b.$teal-d;
+				}
 			}
 		}
 	}
@@ -116,7 +169,7 @@
 			flex-direction: column;
 			justify-content: space-around;
 			align-items: center;
-            gap: 16px;
+			gap: 16px;
 
 			.op {
 				width: 100%;
@@ -156,9 +209,27 @@
 			@include b.ls(7vw);
 		}
 
-		a {
+		a button{
 			@include b.ls(7vw);
 			text-align: center;
+		}
+
+		#passoApassoGithub {
+			padding: 8px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 16px;
+
+			h2 {
+				@include b.fr(12vw);
+			}
+
+			ol li {
+				@include b.ls(8vw);
+				margin-top: 24px;
+				text-align: start;
+			}
 		}
 	}
 </style>
