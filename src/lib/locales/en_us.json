@@ -198,6 +198,13 @@
   },
   "down": {
     "titulo": "Ready, set… fly!",
-    "erro": "Couldn't download it? No worries! Grab it directly from our GitHub repository! Oh, and don’t forget, share your experience with us at saccopper@gmail.com!"
+    "erro": "Couldn't download it? No worries! Grab it directly from our GitHub repository! Oh, and don’t forget, share your experience with us at saccopper@gmail.com!",
+    "passo": {
+      "titulo": "Step-by-step via GitHub:",
+      "qttd": "3",
+      "passo1": "Find the installation files located in the project root — the .bat and .sh files;",
+      "passo2": "Choose the correct installer according to your operating system: install.bat for Windows, install-mac.sh for macOS, and install.sh for Linux;",
+      "passo3": "Download and run the installer! Voilà, everything’s ready for your project to take off!"
+    }
   }
 }

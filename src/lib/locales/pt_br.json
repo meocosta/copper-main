@@ -201,8 +201,15 @@
       "prgf6": "<blockquote>@coppermind</blockquote>"
     }
   },
-  "down":{
+  "down": {
     "titulo": "Hora de voar!",
-    "erro": "Não conseguiu fazer o download? Tudo bem, baixe direto pelo nosso repositório do github! Ah e não esquece, nos mande sua expêriencia conosco pelo email saccopper@gmail.com"
+    "erro": "Não conseguiu fazer o download? Tudo bem, baixe direto pelo nosso repositório do github! Ah e não esquece, nos mande sua expêriencia conosco pelo email saccopper@gmail.com",
+    "passo": {
+      "titulo": "Passo a passo pelo GitHub:",
+      "qttd": "3",
+      "passo1": "Encontre os arquivos de instalação localizados na raiz do projeto — os arquivos .bat e .sh;",
+      "passo2": "Escolha o instalador correto de acordo com seu sistema operacional: install.bat para Windows, install-mac.sh para macOS e install.sh para Linux;",
+      "passo3": "Baixe e execute o instalador! Voilà, tudo pronto para o seu projeto decolar!"
+    }
   }
 }
