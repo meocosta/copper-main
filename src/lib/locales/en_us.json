@@ -206,5 +206,10 @@
       "passo2": "Choose the correct installer according to your operating system: install.bat for Windows, install-mac.sh for macOS, and install.sh for Linux;",
       "passo3": "Download and run the installer! Voilà, everything’s ready for your project to take off!"
     }
+  },
+  "footer": {
+    "redes": "Get in touch! We’ll be happy to respond!",
+    "agradecimento": "Thanks to all the members who contributed to making this project happen. Thanks also to everyone who helped us directly or indirectly.",
+    "slogan": "Innovation is no longer in front of your eyes, but within your reach."
   }
 }

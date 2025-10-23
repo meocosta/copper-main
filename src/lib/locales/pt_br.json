@@ -211,5 +211,10 @@
       "passo2": "Escolha o instalador correto de acordo com seu sistema operacional: install.bat para Windows, install-mac.sh para macOS e install.sh para Linux;",
       "passo3": "Baixe e execute o instalador! Voilà, tudo pronto para o seu projeto decolar!"
     }
+  },
+  "footer":{
+    "redes": "Entre em contato! Ficaremos felizes em te responder!",
+    "agradecimento": "Obrigado a todos os integrantes que colaboraram para que esse projeto acontecesse. Obrigado também a todos que nos ajudaram direta ou indiretamente",
+    "slogan":"a inovação não está mais diante dos seu olhos, mas ao seu alcançe"
   }
 }
