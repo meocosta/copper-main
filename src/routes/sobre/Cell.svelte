@@ -51,7 +51,7 @@
 		<h2>{@html sobre.time.titulo}</h2>
 		<p>
 			// maria elisa costa <br /> // fernando marques <br /> // bruno teixeira <br /> // ryan lima
-			<br />// miguel pires <br /> // rodrigo dias <br /> // rafael ricomini
+			<br />// miguel pires <br /> // rodrigo dias <br /> // rafael ricomini <br> //brian rhudy
 		</p>
 	</section>
 	<section id="sobreContato">

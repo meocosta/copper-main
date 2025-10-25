@@ -13,7 +13,7 @@
 		resultado = { logs: [], saida: '' };
 
 		try {
-			const res = await fetch(`${API_URL}/execute`, {
+			const res = await fetch(`http://15.228.226.41:3000/execute`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ codigo }) // Envia o código no formato certo
