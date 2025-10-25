@@ -1,8 +1,19 @@
 <script>
-	import { API_URL } from './config.js';
 	// @ts-ignore
 	import { onMount } from 'svelte';
 	import { razao } from '$lib/stores/tela';
+	import {t, lang} from "$lib/stores/language";
+
+	let frase = t("play.frase");
+	let exct = t("play.exct");
+
+	$:{
+
+		$lang;
+
+		frase = t("play.frase");
+		exct = t("play.exct");
+	}
 
 	let codigo = '';
 	let resultado = { logs: [], saida: '' };
@@ -13,7 +24,7 @@
 		resultado = { logs: [], saida: '' };
 
 		try {
-			const res = await fetch(`http://15.228.226.41:3000/execute`, {
+			const res = await fetch(`https://www.cforge.com.br/execute`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ codigo }) // Envia o código no formato certo
@@ -46,7 +57,7 @@
 </script>
 
 <section id="PlaygroundSection" class={$razao > 1 ? 'note' : $razao > 0.63 ? 'tablet' : 'cell'}>
-	<h2>atenção, essa aba está em construção, e teste, nada está na versão final</h2>
+	<h2>{frase}</h2>
 	<h1>
 		<span>P</span>
 		<span>L</span>
@@ -83,11 +94,11 @@
 		</div>
 	</div>
 
-	<button on:click={executarCodigo}>Executar</button>
+	<button on:click={executarCodigo}>{exct}</button>
 </section>
 
 <style lang="scss">
-	@use '$lib/styles/Basics.scss' as b;
+	@use '../../lib/styles/Basics.scss' as b;
 
 	//light
 	#PlaygroundSection {
@@ -163,6 +174,10 @@
 		text-align: center;
 		justify-content: space-around;
 		height: 90vh;
+
+		h2{
+			@include b.ls(1.5vw);
+		}
 
 		h1 {
 			@include b.ls(15vw, 800);
@@ -276,7 +291,7 @@
 		height: 90vh;
 
 		h2{
-			@include b.ls(5vw)
+			@include b.ls(3vw)
 		}
 
 		h1 {
@@ -394,7 +409,7 @@
 		height: 90vh;
 
 		h2{
-			@include b.ls(5vw);
+			@include b.ls(4vw);
 			width: 90vw;
 			text-align: start;
 		}

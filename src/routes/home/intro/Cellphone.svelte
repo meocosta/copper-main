@@ -10,13 +10,13 @@
 	<h2>{@html conteudo[0]}</h2>
 	<h3>{conteudo[1]}</h3>
 	<div id="botoes">
-		<button id="teste"><a href="/play"><TestTubeDiagonal /> <p>{botoes[0]}</p></a></button>
+		<button id="teste"><a href="/down"><TestTubeDiagonal /> <p>{botoes[0]}</p></a></button>
 		<button id="start"><a href="/docs/introducao"><Play /> <p>{botoes[1]}</p></a></button>
 	</div>
 </section>
 
 <style lang="scss">
-	@use '$lib/styles/Basics.scss' as b;
+	@use '../../../lib/styles/Basics.scss' as b;
 
 	#IntroHome {
 		position: relative;

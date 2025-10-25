@@ -36,21 +36,21 @@
 				<h2>Mac</h2>
 			</div>
 
-			<button>.sh -macos</button>
+			<a href="https://github.com/liy77/copper-lang/blob/master/install-mac.sh" target="_blank"><button>.sh -macos</button></a>
 		</div>
 		<div class="op">
 			<div>
 				<img src={wins} alt="Brian é chato" />
 				<h2>Windows</h2>
 			</div>
-			<button>.bat</button>
+			<a href="https://github.com/liy77/copper-lang/blob/master/install.bat" target="_blank"><button>.bat</button></a>
 		</div>
 		<div class="op">
 			<div>
 				<img src={linux} alt="Brian é chato" />
 				<h2>Linux</h2>
 			</div>
-			<button>.sh</button>
+			<a href="https://github.com/liy77/copper-lang/blob/master/install.sh" target="_blank"><button>.sh</button></a>
 		</div>
 	</div>
 
@@ -68,7 +68,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/styles/Basics.scss' as b;
+	@use '../../lib/styles/Basics.scss' as b;
 
 	#downSection {
 		a {
@@ -183,9 +183,8 @@
 				height: 25vh;
 				@include b.ls(7vw);
 
-				button {
+				a button {
 					cursor: pointer;
-					width: 50%;
 					@include b.ls(7vw);
 					border-radius: 16px;
 					@include b.mor();

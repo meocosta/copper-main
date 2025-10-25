@@ -50,8 +50,8 @@
 	<section id="sobreTime">
 		<h2>{@html sobre.time.titulo}</h2>
 		<p>
-			// maria elisa costa <br /> // fernando marques <br /> // bruno teixeira <br /> // ryan lima
-			<br />// miguel pires <br /> // rodrigo dias <br /> // rafael ricomini <br> //brian rhudy
+			// Maria Elisa Costa <br /> // Fernando Marques <br /> // Bruno Teixeira <br /> // Ryan lima
+			<br />// Miguel Pires <br /> // Rodrigo Dias <br /> // Rafael Ricomini <br> //Brian rhudy
 		</p>
 	</section>
 	<section id="sobreContato">
@@ -62,7 +62,7 @@
 </section>
 
 <style lang="scss">
-	@use '$lib/styles/Basics.scss' as b;
+	@use '../../lib/styles/Basics.scss' as b;
 
 	#sobre {
 		margin-top: 7vh;

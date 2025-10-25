@@ -212,6 +212,10 @@
       "passo3": "Baixe e execute o instalador! Voilà, tudo pronto para o seu projeto decolar!"
     }
   },
+  "play":{
+    "frase": "Nosso Playground ainda está na versão Copper Beta, em breve teremos atualizações",
+    "exct": "execute"
+  },
   "footer":{
     "redes": "Entre em contato! Ficaremos felizes em te responder!",
     "agradecimento": "Obrigado a todos os integrantes que colaboraram para que esse projeto acontecesse. Obrigado também a todos que nos ajudaram direta ou indiretamente",
