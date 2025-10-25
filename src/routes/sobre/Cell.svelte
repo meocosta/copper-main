@@ -50,8 +50,8 @@
 	<section id="sobreTime">
 		<h2>{@html sobre.time.titulo}</h2>
 		<p>
-			// Maria Elisa Costa <br /> // Fernando Marques <br /> // Bruno Teixeira <br /> // Ryan lima
-			<br />// Miguel Pires <br /> // Rodrigo Dias <br /> // Rafael Ricomini <br> //Brian rhudy
+			// Maria Elisa Costa <br /> // Fernando Marques <br /> // Bruno Teixeira <br /> // Ryan Lima
+			<br />// Miguel Pires <br /> // Rodrigo Dias <br /> // Rafael Ricomini <br> //Brian Rhudy
 		</p>
 	</section>
 	<section id="sobreContato">
